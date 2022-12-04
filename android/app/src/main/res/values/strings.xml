@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+app_name
+    <string name="app_name">quantam</string>
+    <string name="facebook_app_id">1315622625928909</string>
+    <string name="fb_login_protocol_scheme">fb1315622625928909</string>
+    <string name="facebook_client_token">6a2da25b59914568a398cef36bed6af0</string>
+
+</resources>
