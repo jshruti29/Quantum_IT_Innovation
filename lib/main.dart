@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:quantam/signin.dart';
 
 import 'package:firebase_core/firebase_core.dart';
+import 'News/Presentation/Screens/splash_screen.dart';
 import 'firebase_options.dart';
 
 // ...
@@ -21,7 +21,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const SignIN(),
+      debugShowCheckedModeBanner: false,
+      home: const Splash(),
       theme: ThemeData(
         primaryColor: const Color.fromARGB(255, 63, 104, 176),
       ),
